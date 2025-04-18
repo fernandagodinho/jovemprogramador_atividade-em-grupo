@@ -90,3 +90,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+"""
+ Este código implementa um jogo de adivinhação de números com modos para um ou dois jogadores.
+ O jogo inclui funcionalidades de pontuação, ranking e tratamento de entradas inválidas.
+ O jogador tenta adivinhar um número secreto entre 1 e 100, com um número limitado de tentativas.  
+
+"""
