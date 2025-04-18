@@ -39,7 +39,7 @@ def modo_dois_jogadores():
     print("Regras: vocês se alternam nas tentativas para adivinhar o número secreto.")
     print("O jogador que acertar primeiro ou fizer mais pontos vence!\n")
     numero_secreto = random.randint(1, 100)
-    tentativas_totais = 14
+    tentativas_totais = 7
     pontuacoes = {nomes[0]: 0, nomes[1]: 0}
 
     for tentativas in range(1, tentativas_totais + 1):
